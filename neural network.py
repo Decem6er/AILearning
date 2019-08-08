@@ -94,6 +94,18 @@ for record in training_data_list:
 
 training_data_file.close()
 
+#load test.csv to test it
+test_file=open("mnist_test.csv","r")
+test_list=test_file.readlines()
+test_file.close()
+all_values_2=test_list[0].split(',')
+print(all_values_2[0])
+
+image_array=numpy.asfarray(all_values_2[1:]).reshape((28,28))
+matplotlib.pyplot.imshow(image_array,cmap='Greys',interpolation='None')
+o=n.query((numpy.asfarray(all_values_2[1:])/255.0*0.99)+0.01)
+print(o)
+
         
         
 
