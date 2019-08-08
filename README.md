@@ -9,3 +9,8 @@ A revision control when learning AI.
 
 当然，你也可以自己写个数字，拿去识别一下。
 做法是：将数字存为28*28像素的图片，再将图像变成浮点数组（传说scipy.misc可行，但我这里好像会报错，嘛，算了），存为.csv，其中csv每行第一个值为你写的数字，投食。
+
+
+
+最后感谢 Tariq Rashid ，我在很大程度上参考了他的代码
+Thanks you Tariq Rashid. Your code is be of great help.
