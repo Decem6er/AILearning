@@ -1,9 +1,10 @@
 # AILearning
-A revision control when learning AL.
+A revision control when learning AI.
 
-**这玩意儿现在只能识别手写数字**
-**结果中最大的值即为对应数字**
-**第一行为答案，数组结果从上到下分别为0到9**
+**这玩意儿现在只能识别手写数字/It can only distinguish the number that written by hand**
+
+**结果中最大的值即为对应数字/The maximun value in the output is the corresponding number**
+**第一行为标准答案，数组结果从上到下分别为0到9/The first number is the srandard answer, array results are 0 to 9 from top to bottom**
 
 
 当然，你也可以自己写个数字，拿去识别一下。
